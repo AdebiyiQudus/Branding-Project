@@ -554,12 +554,56 @@ video {
   --tw-contain-style:  ;
 }
 
-.mt-5 {
-  margin-top: 1.25rem;
+.mb-9 {
+  margin-bottom: 2.25rem;
 }
 
 .ml-10 {
   margin-left: 2.5rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.ml-20 {
+  margin-left: 5rem;
+}
+
+.ml-\[\] {
+  margin-left: ;
+}
+
+.ml-\[100px\] {
+  margin-left: 100px;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
 }
 
 .inline {
@@ -570,27 +614,128 @@ video {
   display: flex;
 }
 
+.w-\[300px\] {
+  width: 300px;
+}
+
+.w-\[340px\] {
+  width: 340px;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[3\] {
+  width: 3;
+}
+
+.w-\[14rem\] {
+  width: 14rem;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-start {
+  align-items: flex-start;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
 .justify-around {
   justify-content: space-around;
 }
 
-.bg-\[\] {
-  background-color: ;
+.rounded {
+  border-radius: 0.25rem;
 }
 
-.bg-\[fb\] {
-  background-color: fb;
+.rounded-t {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
 }
 
-.bg-\[fbf7\] {
-  background-color: fbf7;
+.rounded-t-\[40rem\] {
+  border-top-left-radius: 40rem;
+  border-top-right-radius: 40rem;
 }
 
-.bg-\[fbf7ee\] {
-  background-color: fbf7ee;
+.border {
+  border-width: 1px;
+}
+
+.border-\[\#AF7452\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(175 116 82 / var(--tw-border-opacity));
 }
 
 .bg-\[\#fbf7ee\] {
   --tw-bg-opacity: 1;
   background-color: rgb(251 247 238 / var(--tw-bg-opacity));
+}
+
+.p-10 {
+  padding: 2.5rem;
+}
+
+.p-20 {
+  padding: 5rem;
+}
+
+.pb-2 {
+  padding-bottom: 0.5rem;
+}
+
+.pl-5 {
+  padding-left: 1.25rem;
+}
+
+.pr-5 {
+  padding-right: 1.25rem;
+}
+
+.pt-2 {
+  padding-top: 0.5rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
+}
+
+.pl-20 {
+  padding-left: 5rem;
+}
+
+.pt-5 {
+  padding-top: 1.25rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-thin {
+  font-weight: 100;
+}
+
+.text-\[\#AF7452\] {
+  --tw-text-opacity: 1;
+  color: rgb(175 116 82 / var(--tw-text-opacity));
 }
